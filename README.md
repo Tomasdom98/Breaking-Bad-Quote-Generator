@@ -2,8 +2,14 @@
 - Description: Breaking Bad Quote Generator
 - Data Source: API Endpoint https://wagon-breaking-bad-quotes.herokuapp.com/v1/quotes
 
+#Web
 To Access the Breaking Bad Quote Generator Web, Please access
 https://bbquote-generator.herokuapp.com/
+
+#Install The Packages
+```
+pip install git+ssh://git@github.com/liviaellen/Breaking-Bad-Quote-Generator/
+```
 
 # Startup the project
 
