@@ -1,10 +1,9 @@
-# Data analysis
-- Document here the project: bbquote839
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Description
+- Description: Breaking Bad Quote Generator
+- Data Source: API Endpoint https://wagon-breaking-bad-quotes.herokuapp.com/v1/quotes
 
-Please document the project the better you can.
+To Access the Breaking Bad Quote Generator Web, Please access
+https://bbquote-generator.herokuapp.com/
 
 # Startup the project
 
@@ -25,12 +24,12 @@ make clean install test
 Check for bbquote839 in gitlab.com/{group}.
 If your project is not set please add it:
 
-- Create a new project on `gitlab.com/{group}/bbquote839`
+- Create a new project on `gitlab.com/{group}/bbquote883`
 - Then populate it:
 
 ```bash
-##   e.g. if group is "{group}" and project_name is "bbquote839"
-git remote add origin git@github.com:{group}/bbquote839.git
+##   e.g. if group is "{group}" and project_name is "bbquote883"
+git remote add origin git@github.com:{group}/bbquote883.git
 git push -u origin master
 git push -u origin --tags
 ```
@@ -46,7 +45,7 @@ bbquote839-run
 
 # Install
 
-Go to `https://github.com/{group}/bbquote839` to see the project, manage issues,
+Go to `https://github.com/{group}/bbquote883` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -59,8 +58,8 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/bbquote839.git
-cd bbquote839
+git clone git@github.com:{group}/bbquote883.git
+cd bbquote883
 pip install -r requirements.txt
 make clean install test                # install and test
 ```
@@ -70,5 +69,5 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-bbquote839-run
+bbquote-run
 ```
