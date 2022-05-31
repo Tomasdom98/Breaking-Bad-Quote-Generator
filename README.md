@@ -2,14 +2,20 @@
 - Description: Breaking Bad Quote Generator
 - Data Source: API Endpoint https://wagon-breaking-bad-quotes.herokuapp.com/v1/quotes
 
-#Web
+# Web
 To Access the Breaking Bad Quote Generator Web, Please access
 https://bbquote-generator.herokuapp.com/
 
-#Install The Packages
+# Install The Packages 
 ```
 pip install git+ssh://git@github.com/liviaellen/Breaking-Bad-Quote-Generator/
 ```
+
+# Run ```bbquote-run``` on terminal to generate Breaking Bad Quote
+```bbquote-run```
+
+
+--------------------
 
 # Startup the project
 
@@ -27,7 +33,7 @@ Unittest test:
 make clean install test
 ```
 
-Check for bbquote839 in gitlab.com/{group}.
+Check for bbquote883 in gitlab.com/{group}.
 If your project is not set please add it:
 
 - Create a new project on `gitlab.com/{group}/bbquote883`
@@ -46,7 +52,7 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-bbquote839-run
+bbquote-run
 ```
 
 # Install
