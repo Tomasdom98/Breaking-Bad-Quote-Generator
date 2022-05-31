@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from bbquote839.lib import get_quote
+from bbquote883.lib import get_quote
 
 print(get_quote())
