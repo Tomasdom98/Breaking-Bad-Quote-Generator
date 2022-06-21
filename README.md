@@ -57,7 +57,7 @@ bbquote-run
 
 # Install
 
-Go to `https://github.com/{group}/bbquote883` to see the project, manage issues,
+Go to `https://github.com/liviaellen/Breaking-Bad-Quote-Generator` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -70,8 +70,8 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/bbquote883.git
-cd bbquote883
+git clone git@github.com:liviaellen/Breaking-Bad-Quote-Generator.git
+cd Breaking-Bad-Quote-Generator
 pip install -r requirements.txt
 make clean install test                # install and test
 ```
