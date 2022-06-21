@@ -33,32 +33,11 @@ Unittest test:
 make clean install test
 ```
 
-Check for bbquote883 in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/bbquote883`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "bbquote883"
-git remote add origin git@github.com:{group}/bbquote883.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-bbquote-run
 ```
 
 # Install
 
-Go to `https://github.com/liviaellen/Breaking-Bad-Quote-Generator` to see the project, manage issues,
-setup you ssh public key, ...
+Go to `https://github.com/liviaellen/Breaking-Bad-Quote-Generator` to see the project.
 
 Create a python3 virtualenv and activate it:
 
