@@ -30,11 +30,6 @@ deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
     pip install pip -U; pip install -r requirements.txt
 ```
 
-Unittest test:
-```bash
-make clean install test
-```
-
 
 
 # Install
