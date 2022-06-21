@@ -8,7 +8,7 @@ https://bbquote-generator.herokuapp.com/
 
 # Install The Packages 
 ```
-pip install git+ssh://git@github.com/liviaellen/Breaking-Bad-Quote-Generator/
+pip install git+https://github.com/liviaellen/Breaking-Bad-Quote-Generator.git
 ```
 
 # Run ```bbquote-run``` on terminal to generate Breaking Bad Quote
