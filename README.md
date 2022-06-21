@@ -6,6 +6,8 @@
 To Access the Breaking Bad Quote Generator Web, Please access
 https://bbquote-generator.herokuapp.com/
 
+Go to `https://github.com/liviaellen/Breaking-Bad-Quote-Generator` to see the project.
+
 # Install The Packages 
 ```
 pip install git+https://github.com/liviaellen/Breaking-Bad-Quote-Generator.git
@@ -37,14 +39,6 @@ make clean install test
 
 # Install
 
-Go to `https://github.com/liviaellen/Breaking-Bad-Quote-Generator` to see the project.
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
 
 Clone the project and install it:
 
